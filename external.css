@@ -1,17 +1,17 @@
 h1.banner__title {
-    display: none;
+    display: none !important;
 } 
 .banner__subtitle {
-    display: none;
+    display: none !important;
 } 
 body > div.banner.banner--has-subnav > div > div:nth-child(3) > p {
-  display:none;
+  display:none !important;
 }
 #branch-search-form > p {
-  display:none;
+  display:none !important;
 }
 a.button.branch-finder-load-current-location {
-    display: none;
+    display: none !important;
 } 
 .banner.banner--has-subnav {
     height: unset !important;
@@ -20,22 +20,22 @@ body > section.section.section--sub-nav-large {
     display: block !important;
 }
 .box.box--white {
-    display: none;
+    display: none !important;
 }
 img.banner__image {
-    display: none;
+    display: none !important;
 } 
 .banner__content {
     width: 100% !important;
     max-width: unset !important;
-    margin: 0 auto;
-    position: absolute;
+    margin: 0 auto !important;
+    position: absolute !important;
     top: unset !important;
     left: unset !important;
     -webkit-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     transform: none !important;
-    text-align: center;
+    text-align: center !important;
     z-index: 2;
     position: relative;
     background: #F6F6F6 !important;
@@ -43,63 +43,63 @@ img.banner__image {
     margin: auto !important;
 }
 body {
-    background: #F6F6F6;
+    background: #F6F6F6 !important;
 }
 .map__actions__wrapper {
-    background: transparent;
+    background: transparent !important;
 }
 .map__toggle.u-hide--mobile {
-    display: none;
+    display: none !important;
 }
 .grid__col--fixed-66 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    width: 50%;
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 50% !important;
+    flex: 0 0 50% !important;
+    width: 50% !important;
 }
 p.content-card__cta {
-    display: block;
-    width: 100%;
-    background: #5e7334;
-    padding: 10px;
-    border-radius: 30px;
-    text-align: center;
-    color: white;
-  	position:relative;
+    display: block !important;
+    width: 100% !important;
+    background: #5e7334 !important;
+    padding: 10px !important;
+    border-radius: 30px !important;
+    text-align: center !important;
+    color: white !important;
+  	position:relative !important;
 } 
 p.content-card__suptitle {
-    position: absolute;
-    left: 10px;
-    top: 10px;
+    position: absolute !important;
+    left: 10px !important;
+    top: 10px !important;
     background: white;
-    padding: 5px;
-    border-radius: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-  	-webkit-box-shadow: rgba(0,0,0,.25) 0 0.625rem 0.625rem;
-    box-shadow: 0 0.625rem 0.625rem rgba(0,0,0,.25);
+    padding: 5px !important;
+    border-radius: 30px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  	-webkit-box-shadow: rgba(0,0,0,.25) 0 0.625rem 0.625rem !important;
+    box-shadow: 0 0.625rem 0.625rem rgba(0,0,0,.25) !important;
 }
 section.section.section--sub-nav-large {
-    padding-top: 0px;
+    padding-top: 0px !important;
 }
 a.content-card:hover {
     top: unset !important;
-    -webkit-box-shadow: rgba(0,0,0,.25) 0 0.625rem 0.625rem;
-    box-shadow: 0 0.625rem 0.625rem rgba(0,0,0,.25);
+    -webkit-box-shadow: rgba(0,0,0,.25) 0 0.625rem 0.625rem !important;
+    box-shadow: 0 0.625rem 0.625rem rgba(0,0,0,.25) !important;
 }
 ul.map__results {
-    max-height: 540px;
-    overflow: scroll;
+    max-height: 540px !important;
+    overflow: scroll !important;
 }
 #map > div > div.map__list.u-show > section > div > div > div > div.grid__col.grid__col--fixed-66 > p {
-    font-weight: 500;
-    color: #7A0037;
+    font-weight: 500 !important;
+    color: #7A0037 !important;
 }
 .map__results-title:after {
   display:none !important;
 }
 .content-card__cta > i.icon-right-arrow {
-    display: none;
+    display: none !important;
 } 
 a.content-card:hover .content-card__cta i {
     -webkit-transform: none !important;
@@ -107,8 +107,8 @@ a.content-card:hover .content-card__cta i {
     transform: none !important;
 }
 .content-card__cta > i.icon-right-chevron {
-    position: absolute;
-    right: 25px;
-    top: 13px;
-    font-weight: bold;
+    position: absolute !important;
+    right: 25px !important;
+    top: 13px !important;
+    font-weight: bold !important;
 }
